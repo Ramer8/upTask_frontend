@@ -63,3 +63,7 @@ Add this lines before
 ```
 
 After that we can build of production without errors because is a syntax that knows
+
+#### Install headlessui and heroicons dependencies (from tailwindcss)
+
+`npm i @headlessui/react @heroicons/react`
