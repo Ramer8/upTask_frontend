@@ -67,3 +67,7 @@ After that we can build of production without errors because is a syntax that kn
 #### Install headlessui and heroicons dependencies (from tailwindcss)
 
 `npm i @headlessui/react @heroicons/react`
+
+#### Install React hook form
+
+` npm i react-hook-form`
