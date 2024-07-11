@@ -71,3 +71,11 @@ After that we can build of production without errors because is a syntax that kn
 #### Install React hook form
 
 ` npm i react-hook-form`
+
+#### Install Zod
+
+`npm i zod`
+
+#### Install Axios
+
+`npm i axios`
