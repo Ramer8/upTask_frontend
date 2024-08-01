@@ -79,3 +79,11 @@ After that we can build of production without errors because is a syntax that kn
 #### Install Axios
 
 `npm i axios`
+
+#### Install React-toastify library
+
+`npm i react-toastify`
+
+#### Install react-query library
+
+`npm i @tanstack/react-query`

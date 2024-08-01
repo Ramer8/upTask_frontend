@@ -1,11 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './index.css'
 import Router from './router'
 
+const queryClient = new QueryClient()
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-   {/* <h1 className='text-6xl text-blue-600 font-bold'>Hello Peopple</h1> */}
-   <Router/>
+    <QueryClientProvider client={queryClient}>
+
+      <Router />
+    </QueryClientProvider>
   </React.StrictMode>,
 )
